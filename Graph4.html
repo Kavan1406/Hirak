@@ -5,8 +5,8 @@
 <script src="https://d3js.org/d3.v6.js"></script>
 
 <!-- Add 2 buttons -->
-<button onclick="update('COD(mg/ml)')">COD(mg/ml)</button>
-<button onclick="update('BOD(mg/L)')">BOD(mg/L)</button>
+<button onclick="update('Conductivity(uS/cm)')">Conductivity(uS/cm)</button>
+<button onclick="update('TDS(mg/L)')">TDS(mg/L)</button>
 
 <!-- Create a div where the graph will take place -->
 <div id="my_dataviz"></div>
@@ -88,5 +88,5 @@ function update(selectedVar) {
 }
 
 // Initialize plot
-update('COD(mg/ml)')
+update('Conductivity(uS/cm)')
 </script>
